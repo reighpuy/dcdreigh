@@ -12,6 +12,9 @@ $ pip freeze > requirements.txt
 ```cmd
 $ python main_cogs.py
 ```
+# Testing Command
+> !kbbi hari
+
 # Dimana letak Token Bot ?
 > https://discord.com/developers/applications
 
@@ -20,4 +23,4 @@ $ python main_cogs.py
 
 # Terakhir Diperbarui
 > 26-05-20
-  - Ditambahkan : /cogs/media.py : Dictionary Api
+  - Ditambahkan : /cogs/media.py : KBBI
