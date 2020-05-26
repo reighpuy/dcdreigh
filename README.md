@@ -17,3 +17,7 @@ $ python main_cogs.py
 
 # Untuk Edit-edit Cogs Menu
 > https://github.com/reighpuy/dcdreigh/tree/master/cogs
+
+# Terakhir Diperbarui
+> 26-05-20
+  - Ditambahkan : /cogs/media.py : Dictionary Api
