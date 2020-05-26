@@ -4,7 +4,7 @@ class Media(commands.Cog): # Membuat Cogs
     def __init__(self, bot):
         self.bot = bot
     
-    @commands.command(brief="Tidur") # Membuat Perintah Kbbi untuk Cogs
+    @commands.command(brief="Hari") # Membuat Perintah Kbbi untuk Cogs
     async def kbbi(self, ctx, arg):
         if len(arg) > 0:
           try:
