@@ -1,4 +1,5 @@
 from discord.ext import commands
+from kbbi import KBBI
 
 class Media(commands.Cog): # Membuat Cogs
     def __init__(self, bot):
