@@ -1,4 +1,4 @@
-# Instruksi Penggunaan
+# Usage Instruction
 
 ```cmd
 $ git clone https://github.com/reighpuy/dcdreigh
@@ -14,12 +14,12 @@ $ python bot.py
 # Testing Command
 > !help
 
-# Dimana letak Token Bot ?
+# Create Bot & Get Bot Token
 > https://discord.com/developers/applications
 
-# Untuk Edit-edit Cogs Menu
+# Cogs Menu
 > https://github.com/reighpuy/dcdreigh/tree/master/cogs
 
-# Terakhir Diperbarui
+# Last Updated
 > 26-05-20
-  - Ditambahkan : /cogs/media.py : KBBI
+  - Added : /cogs/media.py : KBBI
