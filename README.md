@@ -6,8 +6,8 @@ $ cd dcdreigh
 $ pip freeze > requirements.txt
 ```
 
-  - Masukkan Token di *bot.py*
-  - Setelah dimasukkan langsung saja di Run dengan cara,
+  - Place your Bot Token at *bot.py*
+  - Then Run with,
 ```cmd
 $ python bot.py
 ```
