@@ -1,13 +1,13 @@
 import discord
 
-COMMAND_PREFIX = "!" # Ini Setkey, Pengawalan sebuah Perintah
+COMMAND_PREFIX = "!" # Setkey/Prefix of Commands
 
 class MyClient(discord.Client):
     async def on_ready(self):
-        print('Bot dengan Nama : {0} Berhasil dijalankan!'.format(self.user))
+        print('Bot : {0} has been Actived!'.format(self.user))
 
     async def on_message(self, message):
-        print('[Pesan Baru] - Dari : {0.author} - Pesan : {0.content}'.format(message))
+        print('[New Message] - From : {0.author} - Message : {0.content}'.format(message))
         if message.author.bot:
             return
         
@@ -20,10 +20,10 @@ class MyClient(discord.Client):
         if len(cmd_args) > 1:
             args = cmd_args[1]
 
-        if cmd == "!say":
+        if cmd == "!botsay":
             await message.channel.send(args)
-        elif cmd == "!ping":
-            await message.channel.send("Pong")
+        elif cmd == "!checkalive":
+            await message.channel.send(f"Hi Sir {ctx.author.name}")
 
 client = MyClient()
-client.run('Masukkan_Token_Bot_disini')
+client.run('PUT_YOUR_BOT_TOKEN_HERE')
