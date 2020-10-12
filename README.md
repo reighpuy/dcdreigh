@@ -4,6 +4,10 @@
 $ git clone https://github.com/reighpuy/dcdreigh
 $ cd dcdreigh
 $ pip freeze > requirements.txt
+# You can get the library directly from PyPI:
+- $ python3 -m pip install -U discord.py
+# If you are using Windows, then the following should be used instead:
+- $ py -3 -m pip install -U discord.py
 ```
 
   - Place your Bot Token at *bot.py*
@@ -14,7 +18,7 @@ $ python bot.py
 # Testing Command
 > !help
 
-# Create Bot & Get Bot Token
+# Create an Bot & Get Token of Bot
 > https://discord.com/developers/applications
 
 # Cogs Menu
